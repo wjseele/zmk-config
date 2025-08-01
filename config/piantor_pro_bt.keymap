@@ -51,13 +51,16 @@
             display-name = "Colemak";
 
             // --------------------------------------------------------------------------------
-            // |  TAB |  Q  |  W  |  E  |  R  |  T  |  Y  |  U   |  I  |  O  |  P  | BSPC |
-            // | CTRL |  A  |  S  |  D  |  F  |  G  |  H  |  J   |  K  |  L  |  ;  |  '   |
-            // | SHFT |  Z  |  X  |  C  |  V  |  B  |  N  |  M   |  ,  |  .  |  /  | ESC  |
-            //                    | GUI | LWR | SPC | ENT | RSE  | ALT |
+            // |  TAB |  Q  |  W  |  F  |  P  |  B  |  J  |  L   |  U  |  Y  |  ;  |  \   |
+            // |   `  |  A  |  R  |  S  |  T  |  G  |  M  |  N   |  E  |  I  |  O  |  '   |
+            // |   =  |  Z  |  X  |  C  |  D  |  V  |  K  |  H   |  ,  |  .  |  /  |  -   |
+            //                    | LWR | ESC | BSP | SPC | RET  | RSE |
 
             bindings = <
-&kp TAB  &kp Q  &kp W  &kp F  &kp P  &kp B  &kp J  &kp L  &kp U  &kp Y  &kp SEMICOLON  &kp BACKSLASH  &kp GRAVE  &lhrm LCTRL A  &lhrm LEFT_ALT R  &lhrm LEFT_GUI S  &lhrm LEFT_SHIFT T  &kp G  &kp M  &rhrm RIGHT_SHIFT N  &rhrm RIGHT_GUI E  &rhrm RIGHT_ALT I  &rhrm RCTRL O  &kp SQT  &kp EQUAL  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp K  &kp H  &kp COMMA  &kp DOT  &kp FSLH  &kp MINUS  &mo 1  &kp ESCAPE  &kp BACKSPACE  &kp SPACE  &kp ENTER  &mo 2
+                &kp TAB  &kp Q  &kp W  &kp F  &kp P  &kp B  &kp J  &kp L  &kp U  &kp Y  &kp SEMICOLON  &kp BACKSLASH
+                &kp GRAVE  &lhrm LCTRL A  &lhrm LEFT_ALT R  &lhrm LEFT_GUI S  &lhrm LEFT_SHIFT T  &kp G  &kp M  &rhrm RIGHT_SHIFT N  &rhrm RIGHT_GUI E  &rhrm RIGHT_ALT I  &rhrm RCTRL O  &kp SQT
+                &kp EQUAL  &kp Z  &kp X  &kp C  &kp D  &kp V  &kp K  &kp H  &kp COMMA  &kp DOT  &kp FSLH  &kp MINUS
+                &mo 1  &kp ESCAPE  &kp BACKSPACE  &kp SPACE  &kp ENTER  &mo 2
             >;
         };
 
