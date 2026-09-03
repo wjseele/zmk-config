@@ -5,9 +5,6 @@ CONFIG_ZMK_IDLE_TIMEOUT_MS=300000
 
 if BOARD_PIANTOR_PRO_BT_LEFT
 
-config ZMK_KEYBOARD_NAME
-	default "Piantor Pro BT"
-
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
@@ -16,7 +13,7 @@ endif # BOARD_PIANTOR_PRO_BT_LEFT
 if BOARD_PIANTOR_PRO_BT_LEFT || BOARD_PIANTOR_PRO_BT_RIGHT
 
 config BOARD
-    default "piantor_pro_bt"
+	default "piantor_pro_bt"
 
 config ZMK_SPLIT
     default y
